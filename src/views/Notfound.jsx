@@ -10,7 +10,7 @@ function NotFound() {
         {" "}
         No encontramos lo que buscabas,
         <span className="underline text-azul">
-          ¿ por qué no regresas al inicio?
+          ¿ por qué no regresas al inicio ?
         </span>
       </Link>
     </Layout>

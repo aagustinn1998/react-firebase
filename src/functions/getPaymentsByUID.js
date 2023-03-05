@@ -1,4 +1,4 @@
-import { db } from "../firebase/credenciales";
+import { db } from "../firebase/credencial";
 import { collection, getDocs } from "firebase/firestore";
 
 async function getPaymentsByUID(uid) {

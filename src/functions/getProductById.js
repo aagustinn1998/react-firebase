@@ -1,4 +1,4 @@
-import { db } from "../firebase/credenciales";
+import { db } from "../firebase/credencial";
 import { doc, collection, getDocs, getDoc } from "firebase/firestore";
 
 async function getProductById(id) {

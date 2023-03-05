@@ -77,9 +77,8 @@ function Carrito() {
   const Modal = () => (
     <div
       id="modal-comprar"
-      className={`absolute top-0 left-0 bg-slate-600/40 w-screen h-screen z-30 backdrop-blur-sm flex flex-col justify-center items-center ${
-        isModal ? "block" : "hidden"
-      }`}
+      className={`absolute top-0 left-0 bg-slate-600/40 w-screen h-screen z-30 backdrop-blur-sm flex flex-col justify-center items-center ${isModal ? "block" : "hidden"
+        }`}
     >
       <div className="bg-white w-1/3 h-1/3 flex flex-col items-center justify-evenly">
         {" "}

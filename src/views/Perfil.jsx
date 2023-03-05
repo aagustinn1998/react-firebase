@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { signOut } from "firebase/auth";
 import { Layout, LoginForm } from "../components";
 import { useUserContext } from "../contexts/userContext";
-import { auth } from "../firebase/credenciales";
+import { auth } from "../firebase/credencial";
 import { loginEmail, getPaymentsByUID } from "../functions/";
 function Perfil() {
   function login(e) {
@@ -66,4 +66,4 @@ function Perfil() {
   );
 }
 
-export default Perfil;
+export default Perfil; 

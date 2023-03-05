@@ -1,4 +1,4 @@
-import { db } from "../firebase/credenciales";
+import { db } from "../firebase/credencial";
 import { collection, doc, addDoc, onSnapshot } from "firebase/firestore";
 
 async function createCheckoutSession(uid, cart) {

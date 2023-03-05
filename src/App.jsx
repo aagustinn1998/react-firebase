@@ -1,6 +1,6 @@
-import {  Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home, Producto, Perfil, Carrito, Checkout, Login, NotFound, } from "./views";
-import { auth } from "./firebase/credenciales";
+import { auth } from "./firebase/credencial";
 import { useUserContext } from "./contexts/userContext";
 import { onAuthStateChanged } from "firebase/auth";
 

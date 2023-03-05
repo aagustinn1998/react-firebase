@@ -1,4 +1,4 @@
-import { auth } from "../firebase/credenciales";
+import { auth } from "../firebase/credencial";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 async function loginEmail(email, password) {

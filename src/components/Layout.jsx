@@ -6,19 +6,19 @@ import { useCarritoContext } from "../contexts/carritoContext";
 function Layout({ children }) {
   const { carrito } = useCarritoContext();
   return (
-    <div className="w-screen h-screen flex flex-col overflow-x-hidden relative">
-      <header className="w-full text-white  bg-azul">
+    <div className=" w-screen h-screen flex flex-col overflow-x-hidden relative">
+      <header className="text-black w-full text-white  bg-azul">
         <nav className="w-full flex items-center justify-between px-10 py-5">
-          <Link to="/" className="font-bold italic text-3xl">
+          <Link to="/" className="font-balc italic text-3xl text-black">
             {" "}
-            LasfiStore
+            MOST
           </Link>
           <input
-            className="bg-white rounded-md border-0 w-1/3  px-5 py-2 text-black"
+            className="bg-black rounded-md border-1 w-1/3  px-5 py-2 text-white"
             placeholder="¿Qué deseas buscar?"
           ></input>
           <div className="flex">
-            <Link to="/carrito" className="mx-5 relative">
+            <Link to="/carrito" className="mx-5 relative text-black">
               <span
                 className={`absolute w-3 h-3 rounded-full bg-red-600 top-0 right-0  translate-x-1/2 -translate-y-1/2  ${
                   carrito.length > 0 ? "opacity-100" : "opacity-0"
@@ -36,8 +36,8 @@ function Layout({ children }) {
         {children}
       </main>
       <footer className="mt-10 bg-black text-white py-5 px-10 w-full">
-        <div className="w-full h-full flex items-center justify-center">
-          <span className="text-bold text-xl"> MOST</span>
+        <div className=" w-full h-full flex items-center justify-center">
+          <span className="text-white text-xl"> MOST</span>
         </div>
       </footer>
     </div>
