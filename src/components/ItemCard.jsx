@@ -5,7 +5,7 @@ function ItemCard({ product }) {
   return (
     <Link to={`/producto/${product.id}`}>
       <div
-        className="w-[350px] h-[350px] flex flex-col grow justify-center items-center shadow-2xl rounded-xl border-slate-300 border-2
+        className="w-[200px] h-[200px] flex flex-col grow justify-center items-center shadow-2xl rounded-xl border-slate-300 border-2
       hover:scale-105
       "
       >
