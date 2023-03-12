@@ -7,7 +7,7 @@ function Layout({ children }) {
   const { carrito } = useCarritoContext();
   return (
     <div className=" w-screen h-screen flex flex-col overflow-x-hidden relative">
-      <header className="text-black w-full text-white  bg-azul">
+      <header className="text-black w-full text-white  bg-pink">
         <nav className="w-full flex items-center justify-between px-10 py-5">
           <Link to="/" className="font-balc italic text-3xl text-black">
             {" "}
@@ -26,13 +26,13 @@ function Layout({ children }) {
               ></span>
               <AiOutlineShoppingCart size={30} />
             </Link>
-            <Link to="/perfil">
+            <Link to="/perfil" className="mx-5 relative text-black">
               <AiOutlineUser size={30} />
             </Link>
           </div>
         </nav>
       </header>
-      <main className="w-full h-full flex flex-col justify-center items-center">
+      <main className="w-full h-full flex text flex-col justify-center items-center">
         {children}
       </main>
       <footer className="mt-10 bg-black text-white py-5 px-10 w-full">

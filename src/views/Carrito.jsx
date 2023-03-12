@@ -48,8 +48,8 @@ function Carrito() {
         />
         <button
           className="bg-azul
-        px-5 py-2 rounded-md my-1 text-white
-        hover:bg-blue-700
+        px-5 py-2 rounded-md my-1 text-white bg-black
+        hover:bg-blue-700 
         "
         >
           Iniciar Sesión
@@ -88,7 +88,7 @@ function Carrito() {
         >
           <MdOutlineClose />
         </span>
-        <h3 className="font-bold text-slate-500 italic">
+        <h3 className="font-bold text-slate-500 italic ">
           Inicia Sesión para comprar:
         </h3>
         <LoginForm onSubmit={login} />
